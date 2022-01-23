@@ -1,0 +1,92 @@
+@import url("./margin.css");
+@import url("./padding.css");
+
+:root {
+	--value-1: 0.4rem;
+	--value-2: 0.8rem;
+	--value-3: 1.2rem;
+	--value-4: 1.6rem;
+	--value-5: 2rem;
+	--value-6: 2.4rem;
+	--value-7: 2.8rem;
+	--value-8: 3.2rem;
+	/* --color-text-gray: #e5e5e5;
+	--color-text-primary: #171717;
+	--color-text-active: #1d4ed8;
+	--color-background-1: #fafafa;
+	--color-background-2: #f5f5f5;
+	--color-background-3: #e5e5e5; */
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	border: none;
+	background: none;
+	color: inherit;
+	font-family: inherit;
+}
+
+/* font sizes */
+.font-size-s {
+	font-size: 0.8rem;
+}
+
+.font-size-n {
+	font-size: 1.6rem;
+}
+
+.font-size-l {
+	font-size: 3.2rem;
+}
+
+.font-size-xl {
+	font-size: 6.4rem;
+}
+
+/* flex */
+.flex-row {
+	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.align-items {
+	align-items: center;
+}
+
+.justify-items {
+	justify-content: center;
+}
+
+/* border */
+.border {
+	border: 1px solid var(--value-1);
+}
+
+/* border-radius */
+.border-1 {
+	border-radius: var(--value-1);
+}
+
+.border-2 {
+	border-radius: var(--value-2);
+}
+
+.border-3 {
+	border-radius: var(--value-3);
+}
+
+.border-4 {
+	border-radius: var(--value-4);
+}
