@@ -12,15 +12,12 @@ html {
 /* anchor */
 a {
 	text-decoration: none;
-	color: inherit;
 }
 
 /* buttons */
 button {
 	border: none;
 	background: none;
-	color: inherit;
-	font-family: inherit;
 	cursor: pointer;
 }
 
