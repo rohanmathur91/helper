@@ -1,0 +1,70 @@
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/* anchor */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* buttons */
+button {
+	border: none;
+	background: none;
+	color: inherit;
+	font-family: inherit;
+}
+
+/* headings */
+h1 {
+	font-size: 4.8rem;
+	line-height: 6.4rem;
+}
+
+h2 {
+	font-size: 3.2rem;
+	line-height: 4rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+	line-height: 3.2rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+
+h5 {
+	font-size: 0.8rem;
+	line-height: 1.6rem;
+}
+
+/* media */
+img,
+video {
+	max-inline-size: 100%;
+	block-size: auto;
+}
+
+/* list */
+ul {
+	list-style: none;
+}
+
+/* text */
+a,
+p,
+button,
+article {
+	font-size: 1.6rem;
+}
