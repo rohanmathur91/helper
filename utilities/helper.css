@@ -257,19 +257,19 @@
 
 /* border */
 .border {
-	border-bottom: 1px solid var(--color-text-gray);
+	border: 1px solid var(--color-gray);
 }
 
 .border-r-1 {
-	border-right: 1px solid var(--color-text-gray);
+	border-right: 1px solid var(--color-gray);
 }
 
 .border-l-1 {
-	border-left: 1px solid var(--color-text-gray);
+	border-left: 1px solid var(--color-gray);
 }
 
 .border-b-1 {
-	border-bottom: 1px solid var(--color-text-gray);
+	border-bottom: 1px solid var(--color-gray);
 }
 
 /* border-radius */
