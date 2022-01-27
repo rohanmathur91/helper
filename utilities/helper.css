@@ -40,6 +40,18 @@
 	color: var(--color-white);
 }
 
+.red {
+	color: var(--color-red-600);
+}
+
+.blue {
+	color: var(--color-blue-800);
+}
+
+.green {
+	color: var(--color-green-600);
+}
+
 /* font sizes */
 .text-xsm {
 	font-size: 0.4rem;
