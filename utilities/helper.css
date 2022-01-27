@@ -11,12 +11,17 @@
 	--value-6: 4.8em;
 	--value-7: 5.6rem;
 	--value-8: 6.4rem;
-	--color-text-gray: #e5e5e5;
-	/* --color-text-primary: #171717;
-	--color-text-active: #1d4ed8;
-	--color-background-1: #fafafa;
-	--color-background-2: #f5f5f5;
-	--color-background-3: #e5e5e5; */
+
+	/* colors */
+	--color-gray: #9a9a9a;
+	--color-blue-100: #dbeafe;
+	--color-blue-800: #1e40af;
+	--color-red-100: #fee2e2;
+	--color-red-800: #991b1b;
+	--color-green-100: #dcfce7;
+	--color-green-800: #166534;
+	--color-yellow-100: #fef9c3;
+	--color-yellow-800: #854d0e;
 }
 
 /* font sizes */
