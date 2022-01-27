@@ -31,6 +31,15 @@
 	--color-yellow-800: #854d0e;
 }
 
+/* text colors */
+.gray {
+	color: var(--color-gray);
+}
+
+.white {
+	color: var(--color-white);
+}
+
 /* font sizes */
 .text-xsm {
 	font-size: 0.4rem;
