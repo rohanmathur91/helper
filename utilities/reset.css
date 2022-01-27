@@ -70,6 +70,7 @@ ul {
 /* text */
 a,
 p,
+label,
 button,
 article {
 	font-size: 1.6rem;
