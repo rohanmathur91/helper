@@ -51,6 +51,7 @@ h5 {
 
 /* media */
 img,
+iframe,
 video {
 	max-inline-size: 100%;
 	block-size: auto;
