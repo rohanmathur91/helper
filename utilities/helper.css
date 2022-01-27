@@ -78,6 +78,14 @@
 	text-align: center;
 }
 
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
 /* font weight */
 .font-light {
 	font-weight: 300;
