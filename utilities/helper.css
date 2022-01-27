@@ -295,3 +295,12 @@
 .overflow-auto {
 	overflow: auto;
 }
+
+/* transition */
+.transition-2 {
+	transition: all 0.2s ease;
+}
+
+.transition-3 {
+	transition: all 0.3s ease;
+}
