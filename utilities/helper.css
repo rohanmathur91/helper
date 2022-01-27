@@ -256,6 +256,10 @@
 }
 
 /* border */
+.border {
+	border-bottom: 1px solid var(--color-text-gray);
+}
+
 .border-r-1 {
 	border-right: 1px solid var(--color-text-gray);
 }
