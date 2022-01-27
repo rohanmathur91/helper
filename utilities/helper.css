@@ -13,9 +13,12 @@
 	--value-8: 6.4rem;
 
 	/* colors */
-	--color-gray: #9a9a9a;
 	--color-white: #ffffff;
+	--color-gray: #9a9a9a;
+	--color-gray-200: #e5e5e5;
+	--color-gray-400: #a3a3a3;
 	--color-blue-100: #dbeafe;
+	--color-blue-500: #3b82f6;
 	--color-blue-600: #2563eb;
 	--color-blue-800: #1e40af;
 	--color-red-100: #fee2e2;
