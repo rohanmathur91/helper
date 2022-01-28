@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
 @import url("../styles.css");
 
 :root {
@@ -45,9 +44,9 @@ body {
 	max-width: 120rem;
 }
 
-.home__container {
-	max-width: 60rem;
-}
+/* .hero-image {
+	width: rem;
+} */
 
 /* cta */
 .cta {

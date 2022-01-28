@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navigation flex-row items-center wrap py-2 px-4 sticky top-0 z-1 w-100 border-b-1 ">
+    <!-- <nav class="navigation flex-row items-center wrap py-2 px-4 sticky top-0 z-1 w-100 border-b-1 ">
         <a class="pl-8" href="home.html">
             <h2>Drift UI </h2>
         </a>
@@ -20,12 +20,12 @@
             <li class="mr-2  list-item"> <a class="link" href="https://github.com/rohanmathur91/css-component-library"
                     target="_blank">Github</a></li>
         </ul>
-    </nav>
+    </nav> -->
 
     <main class="home m-auto">
-        <section class="h-screen-80 mx-4 mb-8 flex-row align-items-center justify-space-around wrap-reverse">
-            <div class="home__container flex-column justify-content-center">
-                <div class="mb-3">
+        <section class="p-2 flex-row content-space-between w-screen-100 items-center">
+            <div class="flex-column content-center">
+                <div class="mb-3 w-50">
                     <h1>Build fast and elegant user interfaces.</h1>
                     <h3>Drift is a CSS component library for faster development.</h3>
                 </div>
@@ -35,10 +35,12 @@
                     <a class="cta mt-1 py-1 px-2 rounded-sm cta__secondary" href="#installation">Installation</a>
                 </div>
             </div>
-            <img class="w-xl" src="./hero.svg" alt="hero">
+            <div class="hero-image">
+                <img class="w-xl" src="./hero.svg" alt="hero">
+            </div>
         </section>
 
-        <section id="installation">
+        <section id="installation" class="h-screen-80">
             <h3>
                 Installation
             </h3>

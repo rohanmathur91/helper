@@ -251,15 +251,11 @@
 	justify-content: flex-end;
 }
 
-.justify-content-center {
-	justify-content: center;
-}
-
-.justify-space-between {
+.content-space-between {
 	justify-content: space-between;
 }
 
-.justify-space-around {
+.content-space-around {
 	justify-content: space-around;
 }
 
