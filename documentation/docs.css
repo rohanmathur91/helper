@@ -36,17 +36,24 @@ body {
 }
 
 .navigation {
-	background-color: var(--color-background-navbar);
 	backdrop-filter: blur(8px);
+	border-bottom: 1px solid var(--color-text-gray);
+	background-color: var(--color-background-navbar);
 }
 
 .home {
 	max-width: 120rem;
+	margin-top: 93px;
 }
 
 /* .hero-image {
-	width: rem;
+	width: 45rem;
+	height: 45rem;
 } */
+
+.space {
+	padding: 0 9.6rem;
+}
 
 /* cta */
 .cta {
