@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
 @import url("../styles.css");
 
 :root {
@@ -6,6 +7,7 @@
 	--color-text-active: #262626;
 	--color-text-primary: #171717;
 	--color-text-blue: #1d4ed8;
+	--color-text-purple: #c13584;
 	--color-text-hover: #3b82f6;
 	--color-background-1: #fafafa;
 	--color-background-2: #f5f5f5;
@@ -19,19 +21,26 @@ body {
 	background-color: var(--color-background-1);
 }
 
+.invert {
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(
+		90deg,
+		var(--color-text-blue),
+		var(--color-text-purple)
+	);
+}
+
+.highlight {
+	background-color: var(--color-text-gray);
+}
+
 .lists {
 	margin-left: auto;
 }
 
-.link {
-	transition: all 0.3s ease;
-}
-
 .link:hover {
-	color: var(--color-text-blue);
-}
-
-.active {
 	color: var(--color-text-blue);
 }
 
@@ -42,21 +51,12 @@ body {
 }
 
 .home {
-	max-width: 120rem;
-	margin-top: 93px;
-}
-
-/* .hero-image {
-	width: 45rem;
-	height: 45rem;
-} */
-
-.space {
-	padding: 0 9.6rem;
+	max-width: 100rem;
 }
 
 /* cta */
-.cta {
+.cta,
+.link {
 	transition: all 0.3s ease;
 }
 
@@ -82,5 +82,9 @@ body {
 	background-color: var(--color-text-hover);
 }
 
-.footer {
+@media screen and (max-width: 700px) {
+	.spacing {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 }

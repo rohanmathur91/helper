@@ -14,7 +14,10 @@
 
 	/* colors */
 	--color-white: #ffffff;
+	--color-offwhite: #f7f7f7;
+	--color-black: #282828;
 	--color-gray: #9a9a9a;
+	--color-light-gray: #c5c5c5;
 	--color-gray-200: #e5e5e5;
 	--color-gray-400: #a3a3a3;
 	--color-blue-100: #dbeafe;
